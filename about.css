@@ -1,0 +1,151 @@
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f5f2;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .heading-font {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .text-coffee {
+      color: #6f4e37;
+    }
+
+        /* HEADER */
+.custom-header {
+  background-color: #f5efe6;
+  border-bottom: 1px solid rgba(111, 78, 55, 0.15);
+  z-index: 1000;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #6f4e37;
+}
+
+.logo:hover {
+  color: #5a3e2b;
+}
+
+.coffee-icon {
+  font-size: 26px;
+  transition: 0.3s;
+}
+
+.logo:hover .coffee-icon {
+  transform: rotate(15deg);
+}
+
+.brand-name {
+  font-weight: 600;
+}
+
+.nav-link-custom {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  transition: 0.3s;
+}
+
+.nav-link-custom:hover {
+  color: #6f4e37;
+}
+
+.btn-signin {
+  background-color: #6f4e37;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-signin:hover {
+  background-color: #5a3e2b;
+  color: white;
+}
+
+.cart-icon {
+  font-size: 22px;
+  text-decoration: none;
+  color: #6f4e37;
+  transition: 0.3s;
+}
+
+.cart-icon:hover {
+  transform: scale(1.1);
+}
+
+
+    .btn-coffee {
+      background-color: #6f4e37;
+      color: white;
+      border-radius: 8px;
+      padding: 12px 30px;
+      text-decoration: none;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .btn-coffee:hover {
+      background-color: #5a3e2b;
+      color: white;
+    }
+
+    .section-padding {
+      padding: 90px 0;
+    }
+
+    .hero-img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .team-img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .team-img:hover {
+      transform: scale(1.05);
+    }
+
+    .value-card {
+      background: white;
+      padding: 35px;
+      border-radius: 12px;
+      border: 1px solid rgba(111, 78, 55, 0.2);
+      transition: 0.3s;
+    }
+
+    .value-card:hover {
+      transform: translateY(-6px);
+    }
+
+     .footer-custom {
+       width: 100%;  
+      background-color: #3e2723;
+      color: #F5EFE6;
+    }
+
+    .footer-custom a {
+      color: #d7ccc8;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .footer-custom a:hover {
+      color: #ffffff;
+    }
+
+
