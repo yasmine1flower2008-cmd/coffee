@@ -1,0 +1,82 @@
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f5f2;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .heading-font {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .text-coffee {
+      color: #6f4e37;
+    }
+
+        /* HEADER */
+.custom-header {
+  background-color: #f5efe6;
+  border-bottom: 1px solid rgba(111, 78, 55, 0.15);
+  z-index: 1000;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #6f4e37;
+}
+
+.logo:hover {
+  color: #5a3e2b;
+}
+
+.coffee-icon {
+  font-size: 26px;
+  transition: 0.3s;
+}
+
+.logo:hover .coffee-icon {
+  transform: rotate(15deg);
+}
+
+.brand-name {
+  font-weight: 600;
+}
+
+.nav-link-custom {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  transition: 0.3s;
+}
+
+.nav-link-custom:hover {
+  color: #6f4e37;
+}
+
+.btn-signin {
+  background-color: #6f4e37;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-signin:hover {
+  background-color: #5a3e2b;
+  color: white;
+}
+
+.cart-icon {
+  font-size: 22px;
+  text-decoration: none;
+  color: #6f4e37;
+  transition: 0.3s;
+}
+
+.cart-icon:hover {
+  transform: scale(1.1);
+}

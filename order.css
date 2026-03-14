@@ -94,6 +94,7 @@ body {
 .hero {
   text-align: center;
   padding: 80px 20px;
+  background-color: whitesmoke;
 }
 
 .hero h1 {
@@ -146,7 +147,7 @@ body {
 
 /* HOW TO ORDER */
 .how-order {
-  background: #efe7e1;
+  background: whitesmoke;
   padding: 80px 20px;
 }
 
@@ -187,7 +188,7 @@ body {
 }
 
 .faq-item {
-    text-align: center;
+  text-align: center;
   background: #F5EFE6;
   padding: 20px;
   margin-bottom: 20px;
